@@ -1,0 +1,161 @@
+
+*
+    box-sizing: border-box
+    
+body
+    background-color: lightgreen 
+    overflow-x: hidden
+
+.main
+    margin: 0 auto
+    width: 1400px
+    height: 70px
+    background-color: blue
+    display: flex
+    justify-content: space-around
+    padding-top: 15px
+    &__text
+        font-size: 35px 
+        color: orange
+        font-weight: 600
+    &__phone
+        font-size: 35px 
+        color: orange
+        font-weight: 600
+    span
+        color: yellow
+    &__icons
+        img
+            width: 45px
+            height: 45px
+            margin-right: 7px
+            border-radius: 100px
+        a
+            text-decoration: none
+
+.section
+    margin: 0 auto
+    width: 1400px
+    height: 700px
+    &__img
+        width: 1400px
+        height: 700px
+    .text
+         color: white
+         font-size: 50px
+         font-weight: 600
+         text-align: center
+         letter-spacing: 2px
+         position: relative
+         bottom: 600px
+         hr
+            width: 700px
+            height: 10px
+            background-color: black 
+            border: none
+
+.section1
+    margin: 0 auto
+    width: 1400px
+    height: 800px
+    background-color: lightblue
+    .whiteblock
+        width: 1000px
+        height: 350px
+        background-color: white
+        border-radius: 30px 
+        border: 3px solid black
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column
+        position: relative
+        left: 200px
+        bottom: 180px 
+
+        img
+            width: 75px
+            height: 75px
+            position: relative
+            left: 40px
+            top: 50px 
+        p
+            font-size: 26px 
+            position: relative
+            left: 150px
+            bottom: 40px
+            
+        span
+            font-size: 19px
+            
+
+
+
+    
+@media (max-width: 575px)
+    .main
+        width: 375px
+        height: 30px
+        padding-top: 6px
+
+        &__text
+            font-size: 15px 
+      
+        &__phone
+            font-size: 15px
+            padding-top: 2px
+            
+        
+        &__icons
+            img
+                width: 20px
+                height: 20px
+                margin-right: 2px
+                
+
+    .section
+        width: 375px
+        height: 250px
+        &__img
+            width: 375px
+            height: 250px
+        .text
+            font-size: 10px
+            position: relative
+            bottom: 200px 
+            hr
+                width: 200px
+                height: 5px
+
+    .section1
+        width: 375px
+        height: 400px
+        .whiteblock
+            width: 355px
+            height: 400px
+            position: relative
+            left: 10px
+            bottom: 60px 
+            
+            
+
+            img
+                width: 35px
+                height: 35px
+                position: relative
+                left: 20px
+                top: 30px 
+                 
+            p
+                font-size: 17px
+                position: relative
+                left: 90px
+                bottom: 20px 
+
+                
+                
+            span
+                font-size: 14px
+           
+
+
+    
