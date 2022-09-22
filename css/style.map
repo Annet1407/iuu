@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$main-color: orange;\n@mixin box {\n    width: 400px;\n    height: 400px;\n    background-color: grey; }\n\n.block {\n    @include box;\n    &__text {\n        color: {} } }\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";;AAMA,AAAA,MAAM,CAAC;EAJH,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;CAKL"
+}
