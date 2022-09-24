@@ -100,7 +100,7 @@ body {
   font-size: 19px;
 }
 
-@media (max-width: 485px) {
+@media (max-width: 575px) {
   body {
     width: 375px;
     margin: 0 auto;
@@ -149,7 +149,7 @@ body {
     position: relative;
     left: 10px;
     bottom: 60px;
-    background-color: red;
+    background-color: blue;
   }
   .section1 .whiteblock img {
     width: 35px;
