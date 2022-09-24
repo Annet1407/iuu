@@ -101,9 +101,6 @@ body {
 }
 
 @media (max-width: 575px) {
-  body {
-    background-color: orange;
-  }
   .main {
     width: 375px;
     height: 30px;
