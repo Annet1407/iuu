@@ -103,7 +103,7 @@ body {
 @media (max-width: 575px) {
   body {
     background-color: orange;
-    width: 100%;
+    overflow: hidden;
   }
   .main {
     width: 375px;
