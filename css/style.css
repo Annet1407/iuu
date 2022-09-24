@@ -103,7 +103,7 @@ body {
 @media (max-width: 575px) {
   body {
     background-color: orange;
-    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
   }
   .main {
     width: 375px;
@@ -142,7 +142,6 @@ body {
   .section1 {
     width: 375px;
     height: 400px;
-    margin: 0 auto;
   }
   .section1 .whiteblock {
     width: 355px;
