@@ -141,7 +141,6 @@ body {
   .section1 {
     width: 375px;
     height: 400px;
-    overflow: -moz-hidden-unscrollable;
   }
   .section1 .whiteblock {
     width: 355px;
