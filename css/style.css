@@ -101,6 +101,10 @@ body {
 }
 
 @media (max-width: 575px) {
+  body {
+    width: 375px;
+    margin: 0 auto;
+  }
   .main {
     width: 375px;
     height: 30px;
@@ -145,7 +149,7 @@ body {
     position: relative;
     left: 10px;
     bottom: 60px;
-    background-color: red;
+    background-color: orange;
   }
   .section1 .whiteblock img {
     width: 35px;
