@@ -101,6 +101,10 @@ body {
 }
 
 @media (max-width: 575px) {
+  body {
+    background-color: orange;
+    overflow: hidden;
+  }
   .main {
     width: 375px;
     height: 30px;
