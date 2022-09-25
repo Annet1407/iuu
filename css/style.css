@@ -4,7 +4,7 @@
 
 body {
   background-color: lightgreen;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .main {
@@ -102,7 +102,6 @@ body {
 
 @media (max-width: 575px) {
   .main {
-    display: fixed;
     width: 375px;
     height: 30px;
     padding-top: 6px;
@@ -120,7 +119,6 @@ body {
     margin-right: 2px;
   }
   .section {
-    display: fixed;
     width: 375px;
     height: 250px;
   }
@@ -138,7 +136,6 @@ body {
     height: 5px;
   }
   .section1 {
-    display: fixed;
     width: 375px;
     height: 400px;
   }
@@ -148,7 +145,7 @@ body {
     position: relative;
     left: 10px;
     bottom: 60px;
-    background-color: grey;
+    background-color: white;
   }
   .section1 .whiteblock img {
     width: 35px;
