@@ -101,9 +101,6 @@ body {
 }
 
 @media (max-width: 575px) {
-  body {
-    display: fixed;
-  }
   .main {
     display: fixed;
     width: 375px;
